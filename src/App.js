@@ -4,6 +4,7 @@ import './App.css';
 function App() {
   return (
     <div className="App">
+      <p className="p-bold">제가 만들어보겠습니다.</p>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
@@ -17,6 +18,7 @@ function App() {
         >
           Learn React
         </a>
+        <p className="p-color">전산전자공학부 학부 일정관리 </p>
       </header>
     </div>
   );
